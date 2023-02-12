@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+frozen-flask = "*"
+markdown = "*"
+flake8 = "*"
+pylint = "*"
+black = "*"
+bandit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

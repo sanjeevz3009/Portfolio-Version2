@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SANJ</title>
+
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}">
+</head>
+
+<body>
+    <div class="hero" data-theme="dark"></div>
+    <nav class="container-fluid" id="navBar">
+        <ul>
+            <li><strong>SANJ</strong></li>
+        </ul>
+        <ul>
+            <li><a class="contrast" href="#">Home</a></li>
+            <li><a class="contrast" href="#">Projects</a></li>
+            <li><a class="contrast"href="#">Experience</a></li>
+            <li><a class="contrast"href="#">Contact</a></li>
+            <li>
+                <details role="list" dir="rtl">
+                    <summary aria-haspopup="listbox" role="link" class="contrast">Theme</summary>
+                    <ul role="listbox">
+                        <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                        <li><a href="#" data-theme-switcher="light">Light</a></li>
+                        <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+                    </ul>
+                </details>
+            </li>
+        </ul>
+    </nav>
+    </div><!-- ./ Hero -->
+
+    {% block content %}{% endblock %}
+
+    <!-- Footer -->
+    <footer class="container">
+        <small>Built with <a href="https://picocss.com">Pico</a> • <a
+                href="https://github.com/picocss/examples/tree/master/company/">Source code</a></small>
+    </footer><!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="../js/minimal-theme-switcher.js"></script>
+
+</body>
+
+</html>

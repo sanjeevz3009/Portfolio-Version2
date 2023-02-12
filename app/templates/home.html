@@ -1,0 +1,222 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<header class="container">
+    <hgroup>
+        <h2>Hi, I am</h2>
+        <h1 id="sanj">SANJEEV</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla esse, quae rem excepturi explicabo eius
+            unde quia commodi error quod voluptates molestias placeat perferendis. Necessitatibus eum molestias
+            reprehenderit neque?</h2>
+    </hgroup>
+</header>
+
+
+<!-- Main -->
+<main class="container">
+    <div class="grid">
+
+        <section>
+            <hgroup>
+                <h2>About Me</h2>
+                <h3>Quisque mi est</h3>
+            </hgroup>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis est vel velit bibendum
+                ultrices. Sed aliquam tortor vel odio fermentum ullamcorper eu vitae neque. Sed non diam at tellus
+                venenatis viverra. Vestibulum et leo laoreet arcu tempor eleifend venenatis ac leo. Pellentesque euismod
+                justo sed nisl sollicitudin varius. Duis venenatis nisl sit amet ante rutrum posuere. Etiam nec
+                ullamcorper leo, sed placerat mauris.</p>
+            <h3>Nulla augue metus</h3>
+            <p>Pacilisis sed ante ut, posuere volutpat quam. Maecenas maximus blandit mi ac finibus. Proin quis lacinia
+                tellus. Aliquam erat volutpat. Aliquam erat volutpat. Phasellus suscipit nisi augue, id accumsan tortor
+                auctor ut. Duis odio arcu, egestas nec nulla vel, fermentum bibendum ex.</p>
+            <h3>Sed purus sapien, porta a cursus sed, maximus et metus.</h3>
+            <p>Phasellus molestie ante sed massa bibendum, eget tempus ex sollicitudin. Vestibulum libero nulla,
+                porttitor nec faucibus et, scelerisque eget quam. Nullam finibus tempor dui, vel congue urna condimentum
+                ac. Fusce ultricies mauris justo, nec vulputate mauris pulvinar eu. Sed tempus ligula lorem, at
+                tincidunt risus mollis non. Quisque et turpis sit amet sapien gravida ullamcorper in eu velit. Curabitur
+                luctus ornare finibus. Proin tempor nulla sagittis est fermentum dapibus. Vestibulum posuere mattis
+                congue. Ut porttitor id sem euismod tristique. Quisque mi est, posuere nec lorem eu, vulputate vehicula
+                diam. Nullam scelerisque, libero posuere efficitur bibendum, urna odio finibus lorem, sed volutpat dolor
+                ligula in dolor. Suspendisse suscipit efficitur neque, ut porta tellus mollis vel. Nam consequat arcu ac
+                tellus porta, nec egestas orci sodales.</p>
+        </section>
+
+    </div>
+</main><!-- ./ Main -->
+
+
+<!-- Tabs -->
+<div class="container">
+    <h2>Places I Have Worked</h2>
+    <div class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+        <label for="tab1">Märzen</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+        <label for="tab2">Rauchbier</label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+        <label for="tab3">Dunkles Bock</label>
+
+        <div class="tab-panels">
+            <section id="marzen" class="tab-panel">
+                <h2>6A. Märzen</h2>
+                <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a clean, rich, toasty
+                    and
+                    bready malt flavor, restrained bitterness, and a dry finish that encourages another drink. The
+                    overall
+                    malt impression is soft, elegant, and complex, with a rich aftertaste that is never cloying or
+                    heavy.
+                </p>
+                <p><strong>History:</strong> As the name suggests, brewed as a stronger “March beer” in March and
+                    lagered in
+                    cold caves over the summer. Modern versions trace back to the lager developed by Spaten in 1841,
+                    contemporaneous to the development of Vienna lager. However, the Märzen name is much older than
+                    1841;
+                    the early ones were dark brown, and in Austria the name implied a strength band (14 °P) rather than
+                    a
+                    style. The German amber lager version (in the Viennese style of the time) was first served at
+                    Oktoberfest in 1872, a tradition that lasted until 1990 when the golden Festbier was adopted as the
+                    standard festival beer.</p>
+            </section>
+            <section id="rauchbier" class="tab-panel">
+                <h2>6B. Rauchbier</h2>
+                <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a balanced,
+                    complementary
+                    beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high
+                    smoke flavor, clean fermentation profile, and an attenuated finish are characteristic.</p>
+                <p><strong>History:</strong> A historical specialty of the city of Bamberg, in the Franconian region of
+                    Bavaria in Germany. Beechwood-smoked malt is used to make a Märzen-style amber lager. The smoke
+                    character of the malt varies by maltster; some breweries produce their own smoked malt (rauchmalz).
+                </p>
+            </section>
+            <section id="dunkles" class="tab-panel">
+                <h2>6C. Dunkles Bock</h2>
+                <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the
+                    malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+                <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing
+                    center
+                    and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich
+                    starting in the 17th century. The name “bock” is based on a corruption of the name “Einbeck” in the
+                    Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in
+                    German, and is often used in logos and advertisements.</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <h2>My Projects</h2>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis lectus aliquet, malesuada nisl
+                    eu, pellentesque risus.</p>
+                <div class="card-footer">
+                    <p>Python</p>
+                    <p>JS</p>
+                    <p>Django</p>
+                    <p>Selenium</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>SASS</p>
+                    <p>Bootstrap</p>
+                    <p>MongoDB</p>
+                    <p>Stripe</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis lectus aliquet, malesuada nisl
+                    eu, pellentesque risus.</p>
+                <div class="card-footer">
+                    <p>Python</p>
+                    <p>JS</p>
+                    <p>Django</p>
+                    <p>Selenium</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>SASS</p>
+                    <p>Bootstrap</p>
+                    <p>MongoDB</p>
+                    <p>Stripe</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis lectus aliquet, malesuada nisl
+                    eu, pellentesque risus.</p>
+                <div class="card-footer">
+                    <p>Python</p>
+                    <p>JS</p>
+                    <p>Django</p>
+                    <p>Selenium</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>SASS</p>
+                    <p>Bootstrap</p>
+                    <p>MongoDB</p>
+                    <p>Stripe</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis lectus aliquet, malesuada nisl
+                    eu, pellentesque risus.</p>
+                <div class="card-footer">
+                    <p>Python</p>
+                    <p>JS</p>
+                    <p>Django</p>
+                    <p>Selenium</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>SASS</p>
+                    <p>Bootstrap</p>
+                    <p>MongoDB</p>
+                    <p>Stripe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Subscribe -->
+<section aria-label="Subscribe example">
+    <div class="container">
+        <article>
+            <hgroup>
+                <h2>Contact me</h2>
+                <h3>Send your messages through</h3>
+            </hgroup>
+            <form class="grid">
+                <input type="text" id="name" name="name" placeholder="Name" aria-label="name"
+                    required>
+                <input type="text" id="message" name="message" placeholder="Message" aria-label="message"
+                required>
+                <input type="email" id="email" name="email" placeholder="Email address" aria-label="Email address"
+                    required>
+                <button type="submit" onclick="event.preventDefault()">Send</button>
+            </form>
+        </article>
+    </div>
+</section><!-- ./ Subscribe -->
+
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='app.js')}}"></script>
+
+
+{% endblock content %}
